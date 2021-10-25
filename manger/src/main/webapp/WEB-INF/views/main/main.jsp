@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:forward page="main.do" />
+	<div align = "center">
+		<div><h1>나의 홈페이지에 오신 것을 환영합니다.</h1></div>
+		<a href="memberSelectList.do">전체 멤버 목록</a>
+		
+	</div>
 </body>
 </html>

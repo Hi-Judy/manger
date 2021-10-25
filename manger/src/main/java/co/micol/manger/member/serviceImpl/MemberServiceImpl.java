@@ -16,7 +16,7 @@ public class MemberServiceImpl extends DAO implements MemberService {
 	private ResultSet rs;
 	
 	@Override
-	public List<MemberVO> memberSelectList() { //전체 멤버 보기
+	public List<MemberVO> memberSelectList() { //전체 멤버 검색
 		List<MemberVO> list = new ArrayList<MemberVO>();
 		MemberVO vo;
 		String sql = "select * from member";
